@@ -1,0 +1,47 @@
+.description-visit-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.skills-heading,
+.life-at-company-heading,
+.life-at-company-heading,
+.similar-jobs-heading,
+.skill-name {
+  color: white;
+}
+.skills-list-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.skills-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.skills-container {
+    margin-bottom: 20px;
+}
+.life-at-company-description-image-container {
+  display: flex;
+  justify-content: space-between;
+}
+.life-at-company-description-image-container p {
+  flex: 2;
+  font-size: 25px;
+  color: white;
+}
+.life-at-company-description-image-container img {
+  flex: 1;
+}
+.similar-jobs-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 479px) {
+  .life-at-company-description-image-container {
+    flex-direction: column-reverse;
+  }
+}
